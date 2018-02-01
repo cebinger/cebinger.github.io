@@ -1,19 +1,53 @@
+* {
+	padding:0;
+	margin:0;
+}
+
 body {
-	text-align: center;
-	background: url(../images/background1.jpg);
+	text-align: left;
+	background: url(../images/background3.jpg);
 	background-size: cover;
 	color: #474143;
 	font-family: Helvetica;
+	font-size: 20px;
+	padding: 10px;
+	margin: 40px;
+}
+
+h1 {
+	font-size: 60px;
+	padding-top: 250px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3{ 
+	font-size: 16px;
+	padding-top: 10px;
 }
 
 p {
 	font-size: 18px;
+	padding: 20px;
 }
 
-hr {
-	200px;
+
+#buttons li, a {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: gray;
+  margin-right: 12px;
+  width: 100px;
+  line-height: 40px;
+  font-size: 18px;
+  text-decoration: inherit;
+  color: black;
 }
 
-hr {
-	text-align: center;
-}
+
+
+	
