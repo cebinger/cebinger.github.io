@@ -27,6 +27,7 @@ h2 {
 h3{ 
 	font-size: 16px;
 	padding-top: 10px;
+	padding-bottom: 20px;
 }
 
 p {
@@ -39,7 +40,7 @@ p {
   float: left;
   list-style: none;
   text-align: center;
-  background-color: gray;
+  background-color: #9E9A97;
   margin-right: 12px;
   width: 100px;
   line-height: 40px;
