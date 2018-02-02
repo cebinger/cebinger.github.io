@@ -36,15 +36,18 @@ p {
 }
 
 
-#buttons li {
+#buttons a {
   list-style: none;
   text-align: center;
+  text-decoration: none;
+  color:#474143;
   background-color: #9E9A97;
   color: #474143;
   display: inline-block;
   padding: .5em;
   margin-right: .5em;
 }
+
 
 
 
