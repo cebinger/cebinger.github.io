@@ -14,6 +14,9 @@ body {
 
 header {
 	text-align: left;
+	background-color: #DFDFDF;
+	padding-top: 2em;
+	padding-left: 2em;
 }
 
 h1 {
@@ -70,13 +73,12 @@ footer {
 
 
 .experiences {
-	background: linear-gradient(to bottom right, #B5B3B6, #E0E0E0);
 	padding: 2em;
 	background-color: #DFDFDF;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	margin: 20px 0;
+	
 }
 .experience {
 	flex: 1;
@@ -102,10 +104,26 @@ footer {
 	&:last-child { margin-right: 0; }
 } 
 
+.portfolios {
+	
+}
+
+.portfolio {
+	padding: 2em;
+	background: #DFDFDF;
+}
+
+
+
+#resume{
+	padding:2em;
+	margin:5px;
+	border: 1px solid-gray;
+}
 
 #skills {
 	padding: 2em;
-	background-color:#CED7E2;
+	background-color:#DFDFDF;
 }
 
 #about {
@@ -115,6 +133,8 @@ footer {
 
 #contact {
 	padding: 2em;
-	background-color:#CED7E2
+	background-color:#DFDFDF
 }
+
+
 	
