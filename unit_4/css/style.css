@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+
+}
+body {
+	color: #474143;
+	font-size: 20px;
+	font-family: Helvetica, arial, sans-serif;
+}
+
+header {
+	text-align: left;
+}
+
+h1 {
+	font-size: 60px;
+	padding-top: 250px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3{ 
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h4 {
+	font-size: 18px;
+	padding: 20px 0;
+
+}
+
+p {
+	font-size: 16px;
+	padding-bottom: 2px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer {
+	background-color: #9E9A97;
+	margin: 0;
+	padding: 0;
+}
+
+#intro {
+	background: url(../images/background33.jpg);
+	background-size: cover;
+	padding: 2em;
+}
+
+#buttons a {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  color:#474143;
+  background-color: #9E9A97;
+  color: #474143;
+  display: inline-block;
+  padding: .5em;
+  margin-right: .5em;
+}
+
+
+.experiences {
+	background: linear-gradient(to bottom right, #B5B3B6, #E0E0E0);
+	padding: 2em;
+	background-color: #DFDFDF;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 20px 0;
+}
+.experience {
+	flex: 1;
+	border: 1px solid gray;
+	margin: 5px;
+	padding: 15px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }	
+}
+
+.skills {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.skill {
+	flex: 1;
+	margin: 5px;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+} 
+
+
+#skills {
+	padding: 2em;
+	background-color:#CED7E2;
+}
+
+#about {
+	padding: 2em;
+	background-color:#DFDFDF;
+}
+
+#contact {
+	padding: 2em;
+	background-color:#CED7E2
+}
+	
