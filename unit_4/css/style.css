@@ -14,8 +14,7 @@ body {
 
 header {
 	text-align: left;
-	background-color: #DFDFDF;
-	padding-top: 2em;
+	background-color: #E2E2E2;
 	padding-left: 2em;
 }
 
@@ -47,6 +46,11 @@ p {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+ul {
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 footer {
 	background-color: #9E9A97;
 	margin: 0;
@@ -74,7 +78,7 @@ footer {
 
 .experiences {
 	padding: 2em;
-	background-color: #DFDFDF;
+	background-color: #E2E2E2;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -85,14 +89,17 @@ footer {
 	border: 1px solid gray;
 	margin: 5px;
 	padding: 15px;
+	background-color: #E2E2E2;
 	&:first-child { margin-left: 0; }
 	&:last-child { margin-right: 0; }	
 }
 
 .skills {
 	display: flex;
+	border: 1px solid gray;
 	flex-flow: row wrap;
 	justify-content: center;
+	background-color: #E2E2E2;
 	margin: 5px 0;
 }
 
@@ -104,36 +111,31 @@ footer {
 	&:last-child { margin-right: 0; }
 } 
 
-.portfolios {
-	
-}
 
-.portfolio {
-	padding: 2em;
-	background: #DFDFDF;
-}
-
-
-
-#resume{
-	padding:2em;
-	margin:5px;
-	border: 1px solid-gray;
-}
 
 #skills {
 	padding: 2em;
-	background-color:#DFDFDF;
+	background-color: #E2E2E2;
+}
+
+#portfolio {
+	padding: 2em;
+	background-color: #E2E2E2;
 }
 
 #about {
 	padding: 2em;
-	background-color:#DFDFDF;
+	background-color: #E2E2E2;
 }
 
 #contact {
 	padding: 2em;
-	background-color:#DFDFDF
+	background-color: #E2E2E2
+}
+
+#resume{
+	padding:2em;
+	background-color: #E2E2E2;
 }
 
 
