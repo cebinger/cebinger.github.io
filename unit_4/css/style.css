@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 
 * {
 	padding:0;
@@ -6,61 +6,99 @@
 	box-sizing:border-box;
 
 }
+
+
 body {
 	color: #474143;
-	font-size: 20px;
+	font-size: 16px;
 	font-family: Helvetica, arial, sans-serif;
+	background-color: #E2E2E2;
+}
+
+nav{ 
+  text-align: center;
+  padding-top: .5em;
+  background-color: #E8C66A
+}
+
+nav a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: #474143;
+  	margin: 0 .5em;
+  	padding: .5em;
+}
+
+nav a:hover {
+	color: black;
+
 }
 
 header {
 	text-align: left;
-	background-color: #E2E2E2;
-	padding-left: 2em;
+	background-color: #FFED74;
+	padding: 0 3em;
+	padding-top: 1em;
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 3.75em;
 	padding-top: 250px;
 	padding-bottom: 10px;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 2em;
 }
 
 h3{ 
-	font-size: 16px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: .625em 0;
+	
 }
 
 h4 {
-	font-size: 18px;
+	font-size: 1.125em;
 	padding: 20px 0;
 
 }
 
 p {
-	font-size: 16px;
-	padding-bottom: 2px;
+	line-height: 1.5em;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 ul {
-	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
 }
 
 footer {
 	background-color: #9E9A97;
-	margin: 0;
-	padding: 0;
+  	padding: 1em 3em;
+}
+
+footer a {
+	text-decoration: none;
+	color: #474143;
+	padding: .5em;
+}
+
+footer a:hover {
+	color: black;
+}
+
+footer p {
+	float:right;
 }
 
 #intro {
 	background: url(../images/background33.jpg);
 	background-size: cover;
-	padding: 2em;
+	padding: 3em;
 }
 
 #buttons a {
@@ -76,67 +114,63 @@ footer {
 }
 
 
-.experiences {
-	padding: 2em;
-	background-color: #E2E2E2;
+#experience {
+	margin: 3em;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	background-color: white;
 	
 }
 .experience {
 	flex: 1;
 	border: 1px solid gray;
-	margin: 5px;
-	padding: 15px;
-	background-color: #E2E2E2;
+	margin: .25em;
+	padding: 1em;
 	&:first-child { margin-left: 0; }
 	&:last-child { margin-right: 0; }	
 }
 
-.skills {
+#skills {
 	display: flex;
 	border: 1px solid gray;
 	flex-flow: row wrap;
 	justify-content: center;
-	background-color: #E2E2E2;
-	margin: 5px 0;
+	margin: 3em;
+	background-color: white;
 }
 
-.skill {
+.skills {
 	flex: 1;
-	margin: 5px;
-	padding: 10px;
+	padding: 0 1em;
 	&:first-child { margin-left: 0; }
 	&:last-child { margin-right: 0; }
 } 
 
 
 
-#skills {
-	padding: 2em;
-	background-color: #E2E2E2;
-}
-
 #portfolio {
-	padding: 2em;
-	background-color: #E2E2E2;
+	margin: 3em;
+	background-color: white;
 }
 
 #about {
-	padding: 2em;
-	background-color: #E2E2E2;
+	margin: 3em;
+	background: white;
 }
 
 #contact {
-	padding: 2em;
-	background-color: #E2E2E2
+	margin: 3em;
+	background: white;
 }
 
 #resume{
-	padding:2em;
-	background-color: #E2E2E2;
+	margin:3em;
+	padding: .75em 0;
+	background-color: white;
 }
 
+.right{
+	float:right;
+}
 
-	
