@@ -13,12 +13,14 @@ body {
 	font-size: 16px;
 	font-family: Helvetica, arial, sans-serif;
 	background-color: #E2E2E2;
+	border: 1px black solid;
 }
 
 nav{ 
   text-align: center;
   padding-top: .5em;
   background-color: #E8C66A;
+  border: 1px black solid;
 }
 
 nav a{
@@ -39,8 +41,9 @@ nav a:hover {
 header {
 	text-align: left;
 	background-color: #FFED74;
-	padding: 0 3em;
+	margin: 0 3em;
 	padding-top: 1em;
+	border: 1px black solid;
 }
 
 h1 {
@@ -99,7 +102,8 @@ footer p {
 #intro {
 	background: #FFE2B8;
 	background-size: cover;
-	padding: 3em;
+	margin: 3em;
+	border: 1px black solid;
 }
 
 
@@ -109,6 +113,7 @@ footer p {
 	flex-flow: row wrap;
 	justify-content: center;
 	background-color: #FFE2B8;
+	border: 1px black solid;
 	
 }
 .experience {
@@ -128,6 +133,7 @@ footer p {
 	justify-content: center;
 	margin: 3em;
 	background-color: #FFE2B8;
+	border: 1px black solid;
 }
 
 .skills {
@@ -142,6 +148,7 @@ footer p {
 #portfolio {
 	margin: 3em;
 	background-color: #FFE2B8;
+	border: 1px black solid;
 }
 
 #about {
@@ -152,12 +159,14 @@ footer p {
 #contact {
 	margin: 3em;
 	background-color: #FFE2B8;
+	border: 1px black solid;
 }
 
 #resume{
 	margin:3em;
 	padding: .75em 0;
 	background-color: #FFE2B8;
+	border: 1px black solid;
 }
 
 .right{
