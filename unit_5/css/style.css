@@ -154,6 +154,33 @@ footer p {
 #about {
 	margin: 3em;
 	background-color: #FFE2B8;
+	padding: 0em;
+	display: inline-block;
+	border: 1px black solid;
+}
+
+.about1 {
+	float:left;
+	width: 60%;
+  	border: 1px black solid;
+}
+
+.about2 {
+	float:left;
+	width: 60%;
+	border: 1px black solid;
+}
+
+.about3 {
+	float:right;
+	width: 40%;
+	border: 1px black solid;
+}
+
+.about4 {
+	float:right;
+	width: 40%;
+	border: 1px black solid;
 }
 
 #contact {
@@ -171,5 +198,14 @@ footer p {
 
 .right{
 	float:right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " "
+	clear: both;
+	height: 0;
 }
 
