@@ -58,13 +58,11 @@ h2 {
 
 h3{ 
 	padding: .625em 0;
-	
 }
 
 h4 {
 	font-size: 1.125em;
 	padding: 20px 0;
-
 }
 
 p {
@@ -77,8 +75,9 @@ ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-
 }
+
+
 
 footer {
 	background-color: #FF957E;
@@ -114,17 +113,18 @@ footer p {
 	justify-content: center;
 	background-color: #FFE2B8;
 	border: 1px black solid;
-	
 }
+
 .experience {
 	flex: 1;
 	border: 1px solid gray;
 	margin: .25em;
 	padding: 1em;
 	&:first-child { margin-left: 0; }
-	&:last-child { margin-right: 0; }	
+	&:last-child { margin-right: 0; }
+}	
 
-}
+
 
 #skills {
 	display: flex;
@@ -178,6 +178,12 @@ footer p {
 }
 
 .about4 {
+	float:right;
+	width: 40%;
+	border: 1px black solid;
+}
+
+.about5 {
 	float:right;
 	width: 40%;
 	border: 1px black solid;
