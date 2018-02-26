@@ -44,6 +44,7 @@ header {
 	margin: 0 3em;
 	padding-top: 1em;
 	border: 1px black solid;
+	clear:both;
 }
 
 h1 {
@@ -54,6 +55,7 @@ h1 {
 
 h2 {
 	font-size: 2em;
+	clear:both;
 }
 
 h3{ 
@@ -124,8 +126,6 @@ footer p {
 	&:last-child { margin-right: 0; }
 }	
 
-
-
 #skills {
 	display: flex;
 	border: 1px solid gray;
@@ -149,6 +149,29 @@ footer p {
 	margin: 3em;
 	background-color: #FFE2B8;
 	border: 1px black solid;
+}
+
+.portfolioexample {
+	width: 48%;
+	padding: 2%;
+	margin: .5em;
+	float: left;
+	border: .5px black solid;
+	font-size: 14px;
+}
+
+.img1 {
+    float: left;
+    border: .5px black solid;
+}
+ 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear:both;
+  height: 0;
 }
 
 #about {
