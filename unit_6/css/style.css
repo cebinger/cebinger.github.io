@@ -38,7 +38,7 @@ nav a:hover {
 
 header {
 	text-align: left;
-	margin: 0 3em;
+	margin: 0 4.5em;
 	padding-top: 1em;
 	clear:both;
 }
@@ -79,7 +79,7 @@ ul {
 
 footer {
 	background-color: gray;
-  	padding: 1em 3em;
+  	padding: 1em 4.5em;
 }
 
 footer a {
@@ -102,11 +102,11 @@ footer p {
 }
 
 .intro_text {
-	margin-left: 3em;
+	margin: 4.5em;
 }
 
 #experience {
-	margin: 3em;
+	margin: 4.5em;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -127,7 +127,7 @@ footer p {
 	border: 1px solid gray;
 	flex-flow: row wrap;
 	justify-content: center;
-	margin: 3em;
+	margin: 4.5em;
 }
 
 .skills {
@@ -140,7 +140,7 @@ footer p {
 
 
 #portfolio {
-	margin: 3em;
+	margin: 4.5em;
 }
 
 .portfolioexample {
@@ -168,7 +168,7 @@ footer p {
 }
 
 #about {
-	margin: 3em;
+	margin: 4.5em;
 	padding: 0em;
 	display: inline-block;
 }
@@ -183,7 +183,7 @@ footer p {
     padding: 10px;
     float: left;
     width: 55%;
-    margin-left: 3em;
+    margin-left: 4.5em;
 }
 
 #right {
@@ -191,7 +191,7 @@ footer p {
     padding: 10px;
     float: right;   
     width: 35%;
-    margin-right: 3em;
+    margin-right: 4.5em;
 }
 
 
@@ -201,7 +201,7 @@ footer p {
 }
 
 #resume{
-	margin:3em;
+	margin:4.5em;
 	padding: .75em 0;
 	background-color: white;
 }
