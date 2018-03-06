@@ -1,12 +1,10 @@
 
-
 * {
 	padding:0;
 	margin:0;
 	box-sizing:border-box;
 
 }
-
 
 body {
 	color: #474143;
@@ -17,22 +15,27 @@ body {
 
 nav{ 
   text-align: center;
-  padding-top: .5em;
-  margin: 2em;
+  padding: 1em;
+  margin-top:.5em;
+  background: #474143;
 }
 
 nav a{
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 20px;
-	color: #474143;
-  	margin: 0 .5em;
+	font-size: 1em;
+	color: #E2E2E2;
+  	margin: .5em;
   	padding: .5em;
 
 }
-
+span {
+	color: white;
+	font-size: 1.85em;
+}
 nav a:hover {
-	color: black;
+	color: #007e94;
+	background-color: #474143;
 
 }
 
@@ -45,7 +48,7 @@ header {
 
 h1 {
 	font-size: 3.75em;
-	padding-top: 250px;
+	padding-top: 1em;
 	padding-bottom: 10px;
 }
 
@@ -97,29 +100,62 @@ footer p {
 }
 
 #intro {
-	background-image: url(../images/background33.jpg);
+	background-image: url(../images/bluebrick.png);
 	background-size: cover;
 }
 
+
 .intro_text {
-	margin: 4.5em;
+	margin: 0 4em;
+} 
+
+.laptop {
+	height: 30%;
+	width: 30%;
+	position: relative;
+	float: right;
+	padding-top: 7em;
+	padding-right:1em;
+	opacity: .85;
 }
 
+.coffee {
+	height: 10%;
+	width: 10%;
+	position: relative;
+	margin-top: 8em;
+	margin-right: 5em;
+	float: left;
+	opacity: .85;
+}
+
+.tablet {
+	height: 14%;
+	width: 14%;
+	margin-left: 11em;
+	margin-top: 1.5em;
+	opacity: .9;
+
+}
+
+.arrow {
+	display:block;
+	margin: auto;
+	height: 7.5%;
+	width: 7.5%;
+}
 #experience {
 	margin: 4.5em;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;
-	border: 1px black solid;
+	justify-content: right;
 }
 
 .experience {
-	flex: 1;
 	border: 1px solid gray;
 	margin: .25em;
 	padding: 1em;
-	&:first-child { margin-left: 0; }
-	&:last-child { margin-right: 0; }
+	
 }	
 
 #skills {
@@ -149,7 +185,7 @@ footer p {
 	margin: .5em;
 	float: left;
 	border: .5px black solid;
-	font-size: 14px;
+	font-size: 1em;
 }
 
 .img1 {
@@ -178,6 +214,7 @@ footer p {
 	padding: 0em;
 	display: inline-block;
 }
+
 #left {
     border: 1px black solid;
     padding: 10px;
