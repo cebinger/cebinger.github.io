@@ -14,10 +14,11 @@ body {
 }
 
 nav{ 
-  text-align: center;
-  padding: 1em;
-  margin-top:.5em;
-  background: #474143;
+  	text-align: center;
+  	padding: 1em;
+  	margin-top:.5em;
+  	background: #474143;
+  	text-transform: bold;
 }
 
 nav a{
@@ -41,8 +42,8 @@ nav a:hover {
 
 header {
 	text-align: left;
-	margin: 0 4.5em;
-	padding-top: 1em;
+	
+	margin:  3em 5em;
 	clear:both;
 }
 
@@ -59,15 +60,16 @@ h2 {
 
 h3{ 
 	padding: .625em 0;
+	font-weight: normal;
 }
 
 h4 {
 	font-size: 1.125em;
-	padding: 20px 0;
+	padding: 1.2em 0;
 }
 
 p {
-	line-height: 1.5em;
+	line-height: 1.3em;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -145,52 +147,58 @@ footer p {
 	width: 7.5%;
 }
 #experience {
-	margin: 4.5em;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: right;
+	justify-content: center;
+	padding-bottom: 3.5em;
 }
 
 .experience {
 	border: 1px solid gray;
 	margin: .25em;
-	padding: 1em;
+	padding: .75em;
+	display: block;
 	
 }	
 
 #skills {
 	display: flex;
-	border: 1px solid gray;
 	flex-flow: row wrap;
 	justify-content: center;
-	margin: 4.5em;
+	background-color:white;
+	padding-bottom: 3.5em;
 }
 
 .skills {
-	flex: 1;
-	padding: 0 1em;
-	&:first-child { margin-left: 0; }
-	&:last-child { margin-right: 0; }
-} 
+	padding: 1em;
+	margin-right: 2em;
+	border: .5px black solid;
+
+}
 
 
 
 #portfolio {
-	margin: 4.5em;
+	margin: 5em;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 }
 
 .portfolioexample {
 	width: 48%;
 	padding: 2%;
-	margin: .5em;
+	margin: .25em;
 	float: left;
 	border: .5px black solid;
 	font-size: 1em;
+
+
 }
 
 .img1 {
     float: left;
-    padding: .25cm;
+    padding: .25em;
     border: .5px black solid;
 }
  
@@ -204,31 +212,13 @@ footer p {
 }
 
 #about {
-	margin: 4.5em;
 	padding: 0em;
 	display: inline-block;
 }
 
-.about_columns {
-	margin: 3em;
+#about_columns {
+	margin: 0 5em;
 	padding: 0em;
-	display: inline-block;
-}
-
-#left {
-    border: 1px black solid;
-    padding: 10px;
-    float: left;
-    width: 55%;
-    margin-left: 4.5em;
-}
-
-#right {
-    border: 1px black solid;
-    padding: 10px;
-    float: right;   
-    width: 35%;
-    margin-right: 4.5em;
 }
 
 
@@ -251,6 +241,36 @@ footer p {
 	content: " "
 	clear: both;
 	height: 0;
+}
+
+@media only screen and (min-width: 1800px) {
+	body {
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 890px){
+header {
+	margin: 1em;
+}
+#intro, #experience, #skills, #portfolio, #about, #contact, #resume {
+	margin:.5em;
+}
+
+.laptop, .tablet, .coffee {
+		display: none;
+}
+
+.intro_text {
+	margin: .5em;
+}
+}
+
+@media only screen and (max-width: 652px) {
+
+	nav a {
+		float: none;
+		width: auto;
+	}
 }
 
 
