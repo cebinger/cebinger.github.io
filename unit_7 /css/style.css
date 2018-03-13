@@ -34,6 +34,7 @@ span {
 	font-size: 1.2em;
 	text-transform: bold;
 	line-height: 2em;
+	text-transform: bold;
 }
 
 nav a:hover {
@@ -75,7 +76,7 @@ h4 {
 }
 
 p {
-	line-height: 1.3em;
+	line-height: 1.2em;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -85,8 +86,6 @@ ul {
 	margin: 0;
 	padding: 0;
 }
-
-
 
 footer {
 	background-color: gray;
@@ -106,6 +105,7 @@ footer a:hover {
 footer p {
 	float:right;
 }
+
 
 #intro {
 	background-image: url(../images/bluebrick.png);
@@ -127,7 +127,12 @@ footer p {
 	position: relative;
 	opacity: .85;
 }
- .arrow{
+
+.desk:hover {
+	opacity: .99;
+}
+
+.arrow{
 	display:block;
 	margin: auto;
 	height: 7.5%;
@@ -163,6 +168,10 @@ h3.sectionheader {
 	margin: auto;
 }
 
+.logos:hover {
+	opacity: .8;
+}
+
 #skills {
 	display: flex;
 	flex-flow: row wrap;
@@ -173,7 +182,7 @@ h3.sectionheader {
 
 .skills {
 	padding: 0 3em;
-	margin-right: 2em;
+	margin-right: 1em;
 	text-align: center;
 }
 
@@ -196,11 +205,27 @@ h3.sectionheader {
 	background-color: #FCFCFC
 }
 
-.img1 {
+.portfolioimage {
     float: left;
     margin-right: .75em;
 }
  
+.button {
+	background-color: #A0A0A0;
+	line-height: 1em;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: .9em;
+	color: #FCFCFC;
+  	padding: .25em .75em;
+  	display: inline-block;
+  	
+}
+
+.button:hover {
+	background-color: #3DB1B3;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -216,23 +241,33 @@ h3.sectionheader {
 }
 
 #aboutme {
-	margin: 0 3em;
-	display: block;
-	text-align: center;
 	color: #474143;
-	background-color:;
 	margin: 0 6em;
-	text-transform: uppercase;
-
-}
-
-#aboutme1 {
 	margin: 0 4.5em;
+	display: flex;
+}
+
+.right {
+	float: right;
+	width: 75%;
+	padding: 2%;
+	margin: .4em;
+	border-left: 1px gray solid;
 
 }
+
+.left {
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin:auto;
+	text-transform: uppercase;
+	
+}
+
 
 .aboutmeimage {
-	margin: 0 3em;
+	padding: 0 .5em;
 }
 
 #contact {
@@ -261,12 +296,41 @@ h3.sectionheader {
 		font-size: 20px;
 	}
 }
+
+@media only screen and (max-width: 980px) {
+
+span {
+	font-size: 1.2em;
+	line-height: 1em;
+	text-transform: bold;
+}
+
+#portfolio {
+	margin: .5em 1.5em;
+}
+.skills {
+	padding: 1em;
+}
+.skillsimage, .portfolioimage, .aboutmeimage, {
+	width:50%;
+}
+
+}
+
+
 @media only screen and (max-width: 890px){
+
+h1 {
+	font-size: 3em;
+}
+
 header {
 	margin: 1em;
 }
-#intro, #experience, #skills, #portfolio, #about, #contact, #resume {
-	margin:.5em;
+
+#intro, #experience, #skills #portfolio, #about, #contact, #resume {
+	margin: auto;
+	font-size: 1em;
 }
 
 .desk {
@@ -283,14 +347,82 @@ header {
 	height: 4.5%;
 	width: 4.5%
 }
+
+.skillsimage {
+	width:50%;
+}
+
+#skills {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+.skills {
+	padding: 1em;
+}
+
+#portfolio {
+	padding-bottom: 7em;
+}
+
+.portfolioexample {
+	width: 90%;
+	padding: 2%;
+	margin: .4em .4em;
+	font-size: 1em;
+	background-color: #FCFCFC
 }
 
 @media only screen and (max-width: 652px) {
 
-	nav a {
-		float: none;
-		width: auto;
-	}
+nav a {
+	float: none;
+	width: auto;
+}
+
+#intro, #experience, #skills, #portfolio, #aboutme, #contact, #resume {
+	margin: auto;
+	font-size: 1em;
+}
+
+.aboutmeimage, .skillsimage {
+	width: 45%;
+}
+
+.portfolioimage {
+	width: 25%;
+}
+
+#about {
+	margin: 2em 0;
+	background-color: #FCFCFC;
+}
+
+
+.right {
+	float: right;
+	width: 75%;
+	padding: 2%;
+	margin: .4em;
+	border-left: 1px gray solid;
+
+}
+
+.left {
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin:auto;
+	text-transform: uppercase;
+	
+}
+
+.aboutmeimage {
+	padding: 0 .2em;
+	width: 30%;
+}
 }
 
 
