@@ -1,0 +1,476 @@
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+
+}
+
+body {
+	color: #474143;
+	font-size: 16px;
+	font-family: Helvetica, arial, sans-serif;
+	background-color: #E2E2E2;
+}
+
+nav{ 
+  	text-align: center;
+  	padding: 1em;
+  	margin-top:.5em;
+  	background: #474143;
+  	text-transform: bold;
+}
+
+nav a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1em;
+	color: #E2E2E2;
+  	margin: .5em;
+  	padding: .5em;
+
+}
+span {
+	font-size: 1.2em;
+	text-transform: bold;
+	text-decoration: underline;
+
+	
+}
+
+nav a:hover {
+	color: #007e94;
+	background-color: #474143;
+
+}
+
+header {
+	text-align: left;
+	text-align: center;
+	clear:both;
+}
+
+
+h1 {
+	font-size: 3.75em;
+	padding-bottom: 8px;
+}
+
+.hello {
+	color: white;
+	font-size: 7.5em;
+
+}
+h2 {
+	font-size: 2em;
+	clear:both;
+}
+
+h3{ 
+	padding: .625em 0;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 1.125em;
+	padding: 1.2em 0;
+}
+
+p {
+	line-height: 1.2em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+	font-family: 'Source Sans Pro', sans-serif;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	background-color: gray;
+  	padding: 1em 4.5em;
+}
+
+footer a {
+	text-decoration: none;
+	color: #474143;
+	padding: .5em;
+}
+
+footer a:hover {
+	color: black;
+}
+
+footer p {
+	float:right;
+}
+
+
+#intro {
+	background-image: url(../images/bluebrick.png);
+	background-size: cover;
+}
+
+
+.intro_text {
+	margin: 0 2em;
+} 
+
+.desk {
+	height: 93%;
+	width: 93%;
+	opacity: .85;
+	margin-top: 3em;
+	padding-left: 4em;
+	margin-bottom: -5.5em;
+	position: relative;
+	opacity: .85;
+}
+
+.desk:hover {
+	opacity: .99;
+}
+
+.arrow{
+	display:block;
+	margin: auto;
+	padding-top: 2em;
+	width: 3.5em;
+}
+
+h2.sectionheader {
+	text-align: center;
+	text-transform: uppercase;
+	padding: .5em 0;
+}
+
+#experience {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 3em 4.5em 6em;
+}
+
+.experience {
+	border: 1px gray;
+	margin: .25em;
+	padding: .75em;
+	display: block;
+	background: #FCFCFC;
+}	
+
+.logos {
+	margin: auto;
+}
+
+.logos:hover {
+	opacity: .8;
+}
+
+#skills {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding-bottom: 5em;
+	background-color: #FCFCFC;
+}
+
+.skills {
+	padding: 0 3em;
+	margin-right: 1em;
+	text-align: center;
+}
+
+#portfolio {
+	padding: 4.5em 3em;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.portfolioexample {
+	width: 48%;
+	padding: 2%;
+	margin: .4em;
+	float: right;
+	font-size: 1em;
+	background-color: #FCFCFC
+}
+
+.portfolioimage {
+    float: left;
+    margin-right: .75em;
+}
+ 
+.button {
+	background-color: #A0A0A0;
+	line-height: 1em;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: .9em;
+	color: #FCFCFC;
+  	padding: .25em .75em;
+  	display: inline-block;
+  	
+}
+
+.button:hover {
+	background-color: #3DB1B3;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear:both;
+  height: 0;
+}
+
+#about {
+	padding: 2em 0;
+	background-color: #FCFCFC;
+}
+
+#aboutme {
+	color: #474143;
+	margin: 0 4em;
+	display: flex;
+}
+
+.right {
+	float: right;
+	width: 75%;
+	padding: 2%;
+	margin: .4em;
+	border-left: 1px gray solid;
+
+}
+
+.left {
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin:auto;
+	text-transform: uppercase;
+	
+}
+
+
+.aboutmeimage {
+	padding: 0 .5em;
+}
+
+#contact {
+	margin: 3em;
+	border: 1px black solid;
+}
+
+#resume{
+	margin:4.5em;
+	padding: .75em 0;
+	background-color: white;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " "
+	clear: both;
+	height: 0;
+}
+
+@media only screen and (min-width: 1800px) {
+	body {
+		font-size: 20px;
+	}
+}
+
+
+
+@media only screen and (max-width: 980px) {
+
+span {
+	font-size: 1.2em;
+	line-height: 1em;
+	text-transform: bold;
+}
+
+#portfolio {
+	margin: .5em 1.5em;
+}
+
+
+
+.skills {
+	padding: 1em;
+}
+.skillsimage, .portfolioimage {
+	width:50%;
+}
+.aboutmeimage {
+	width: 30%;
+}
+}
+
+
+
+@media only screen and (max-width: 890px){
+h1 {
+	font-size: 3em;
+}
+
+header {
+	margin: 1em;
+}
+
+#intro, #experience, #skills #portfolio, #aboutme, #contact, #resume {
+	margin: auto;
+	font-size: 1em;
+}
+
+.desk {
+		display: none;
+}
+
+.intro_text {
+	margin: .5em;
+	font-size: .8em;
+	padding-top: 9em;
+}
+
+.arrow {
+	height: 4.5%;
+	width: 4.5%
+}
+
+#experience {
+	padding-bottom: 3em;
+}
+
+.skillsimage {
+	width:50%;
+}
+
+#skills {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+.skills {
+	padding: 1em;
+}
+
+#portfolio {
+	padding: 2em 0 7em 0;
+}
+
+.portfolioexample {
+	width: 90%;
+	padding: 2%;
+	margin: .4em .4em;
+	font-size: 1em;
+	background-color: #FCFCFC
+}
+
+.portfolioimage {
+	width: 20%;
+}
+
+.aboutmeimage {
+	padding: 0 .2em;
+	width: 30%;
+}
+}
+
+
+@media only screen and (max-width: 652px) {
+
+nav a {
+	float: none;
+	width: auto;
+}
+
+#intro, #experience, #skills, #portfolio, #aboutme, #contact, #resume {
+	margin: auto;
+	font-size: 1em;
+}
+
+.aboutmeimage, .skillsimage {
+	width: 45%;
+}
+
+.portfolioimage {
+	width: 25%;
+}
+
+#about {
+	margin: 2em 0;
+	background-color: #FCFCFC;
+}
+
+
+.right {
+	float: right;
+	width: 75%;
+	padding: 2%;
+	margin: .4em;
+	border-left: 1px gray solid;
+
+}
+
+.left {
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin:auto;
+	text-transform: uppercase;
+	
+}
+
+.aboutmeimage {
+	padding: 0 .2em;
+	width: 30%;
+}
+
+@media only screen and (max-width: 480px) {
+
+
+.intro_text {
+	margin: 3em 1em 0em 1em;
+}
+
+.arrow{
+	display:block;
+	margin: auto;
+	padding-top: 2em;
+	width: 3em;
+}
+
+#skills {
+	display: block;
+	justify-content: center;
+	padding-bottom: 5em;
+	background-color: #FCFCFC;
+}
+
+}
+.skillsimage {
+	width:35%;
+	float: left;
+	padding-bottom:2em;
+}
+
+ul {
+	text-align: left;
+}
+
+}
+
+
