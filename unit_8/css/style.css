@@ -48,6 +48,7 @@ header {
 	text-align: left;
 	text-align: center;
 	clear:both;
+	padding-bottom: 1em;
 }
 
 
@@ -56,11 +57,7 @@ h1 {
 	padding-bottom: 8px;
 }
 
-.hello {
-	color: white;
-	font-size: 7.5em;
 
-}
 h2 {
 	font-size: 2em;
 	clear:both;
@@ -115,8 +112,14 @@ footer p {
 
 
 .intro_text {
-	margin: 0 2em;
+	margin: 0 5em;
+	padding-bottom: 4em;
 } 
+
+.hello {
+	color: white;
+	font-size: 7.5em;
+}
 
 .desk {
 	height: 93%;
@@ -143,14 +146,18 @@ footer p {
 h2.sectionheader {
 	text-align: center;
 	text-transform: uppercase;
-	padding: .5em 0;
+	padding: 1em 0;
+}
+
+h3.sectionheader {
+	margin: 0 5em;
 }
 
 #experience {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	margin: 3em 4.5em 6em;
+	margin: 0em 4.5em 6em;
 }
 
 .experience {
@@ -285,11 +292,10 @@ h2.sectionheader {
 }
 
 @media only screen and (min-width: 1800px) {
-	body {
-		font-size: 20px;
-	}
+body {
+	font-size: 20px;
 }
-
+}
 
 
 @media only screen and (max-width: 980px) {
@@ -305,13 +311,13 @@ span {
 }
 
 
-
 .skills {
 	padding: 1em;
 }
 .skillsimage, .portfolioimage {
 	width:50%;
 }
+
 .aboutmeimage {
 	width: 30%;
 }
@@ -406,8 +412,20 @@ nav a {
 	width: 45%;
 }
 
+#portfolio {
+	padding: 2em 0 7em 0;
+}
+
+.portfolioexample {
+	width: 90%;
+	padding: 2%;
+	margin: .4em .4em;
+	font-size: 1em;
+	background-color: #FCFCFC
+}
+
 .portfolioimage {
-	width: 25%;
+	width: 20%;
 }
 
 #about {
@@ -441,7 +459,10 @@ nav a {
 
 @media only screen and (max-width: 480px) {
 
-
+#intro, #experience, #skills, #portfolio, #aboutme, #contact, #resume {
+	margin: auto;
+	font-size: 1em;
+}
 .intro_text {
 	margin: 3em 1em 0em 1em;
 }
@@ -453,22 +474,8 @@ nav a {
 	width: 3em;
 }
 
-#skills {
-	display: block;
-	justify-content: center;
-	padding-bottom: 5em;
-	background-color: #FCFCFC;
-}
-
-}
-.skillsimage {
-	width:35%;
-	float: left;
-	padding-bottom:2em;
-}
-
-ul {
-	text-align: left;
+h3.sectionheader {
+	margin: 0 1em;
 }
 
 }
