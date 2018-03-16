@@ -17,15 +17,15 @@ nav{
   	text-align: center;
   	padding: 1em;
   	margin-top:.5em;
-  	background: #474143;
   	text-transform: bold;
+  	margin: 0 auto;
 }
 
 nav a{
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 1em;
-	color: #E2E2E2;
+	font-size: 1.1em;
+	color: white;
   	margin: .5em;
   	padding: .5em;
 
@@ -40,15 +40,31 @@ span {
 
 nav a:hover {
 	color: #007e94;
-	background-color: #474143;
+	background: #E2E2E2;
 
 }
 
+label {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: white;
+  	padding: .5em;
+  	display: none;
+  	text-align: center;
+}
+
+label:hover{
+	color: #007e94;
+	background: #E2E2E2;
+}
+
 header {
-	text-align: left;
 	text-align: center;
 	clear:both;
 	padding-bottom: 1em;
+	padding-top: 2em;
+	width: 100%;
 }
 
 
@@ -59,18 +75,19 @@ h1 {
 
 
 h2 {
-	font-size: 2em;
+	font-size: 1.25em;
 	clear:both;
 }
 
 h3{ 
-	padding: .625em 0;
 	font-weight: normal;
+	font-size: 1.1em;
+	padding-top: .5em;
 }
 
 h4 {
 	font-size: 1.125em;
-	padding: 1.2em 0;
+	padding-bottom: .5em;
 }
 
 p {
@@ -88,22 +105,29 @@ ul {
 footer {
 	background-color: gray;
   	padding: 1em 4.5em;
+  	text-align: center;
+  	
 }
 
 footer a {
 	text-decoration: none;
+	font: 'Source Sans Pro', sans-serif;
 	color: #474143;
-	padding: .5em;
+  	padding: 1em;
+  	margin-top:.5em;
+  	font-weight: bold;
+  	
 }
 
 footer a:hover {
 	color: black;
+	background: #474143;
 }
 
-footer p {
-	float:right;
-}
 
+#toggle {
+	display:none;
+}
 
 #intro {
 	background-image: url(../images/bluebrick.png);
@@ -112,7 +136,7 @@ footer p {
 
 
 .intro_text {
-	margin: 0 5em;
+	margin: 0 4.5em;
 	padding-bottom: 4em;
 } 
 
@@ -127,30 +151,25 @@ footer p {
 	opacity: .85;
 	margin-top: 3em;
 	padding-left: 4em;
-	margin-bottom: -5.5em;
+	margin-bottom: -7.5em;
 	position: relative;
-	opacity: .85;
+	opacity: .9;
 }
 
 .desk:hover {
 	opacity: .99;
 }
 
-.arrow{
-	display:block;
-	margin: auto;
-	padding-top: 2em;
-	width: 3.5em;
-}
 
 h2.sectionheader {
 	text-align: center;
 	text-transform: uppercase;
-	padding: 1em 0;
-}
-
-h3.sectionheader {
-	margin: 0 5em;
+	background-color: #474143;
+	color: #FCFCFC;
+	width: max-content;
+	margin:auto;
+	padding: 0em 1em;
+	transform: translateY(-50%);
 }
 
 #experience {
@@ -186,12 +205,14 @@ h3.sectionheader {
 
 .skills {
 	padding: 0 3em;
-	margin-right: 1em;
-	text-align: center;
+}
+
+.mobileskills {
+	display:none;
 }
 
 #portfolio {
-	padding: 4.5em 3em;
+	padding: 2em 3em;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -204,6 +225,10 @@ h3.sectionheader {
 	float: right;
 	font-size: 1em;
 	background-color: #FCFCFC
+}
+
+.portfolioexample p {
+	overflow: hidden;
 }
 
 .portfolioimage {
@@ -220,6 +245,8 @@ h3.sectionheader {
 	color: #FCFCFC;
   	padding: .25em .75em;
   	display: inline-block;
+  	float: right;
+  	margin-top: 2em;
   	
 }
 
@@ -237,49 +264,58 @@ h3.sectionheader {
 }
 
 #about {
-	padding: 2em 0;
 	background-color: #FCFCFC;
 }
 
-#aboutme {
-	color: #474143;
-	margin: 0 4em;
+.wrapper {
 	display: flex;
+	flex-flow: wrap;
+	margin: .5em;
 }
 
 .right {
 	float: right;
-	width: 75%;
+	width: 70%;
 	padding: 2%;
-	margin: .4em;
 	border-left: 1px gray solid;
-
+	margin: auto;
+	text-align: center;
 }
 
 .left {
 	float: left;
 	width: 20%;
-	text-align: center;
-	margin:auto;
+	padding: 2%;
 	text-transform: uppercase;
-	
+	text-align: center;
+	margin: auto;
+	text-align: center;
 }
 
 
 .aboutmeimage {
-	padding: 0 .5em;
+	margin-right: 1em;
 }
 
-#contact {
-	margin: 3em;
-	border: 1px black solid;
+#contactme {
+	text-align: center;
+
 }
 
-#resume{
-	margin:4.5em;
-	padding: .75em 0;
-	background-color: white;
+.contact {
+	display: inline-block;
+	color: #474143;
 }
+
+.contact a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: black;
+}
+
 
 
 .clearfix:after {
@@ -306,10 +342,13 @@ span {
 	text-transform: bold;
 }
 
+/*.desk {
+	margin-bottom: -9em;
+} */
+
 #portfolio {
 	margin: .5em 1.5em;
 }
-
 
 .skills {
 	padding: 1em;
@@ -318,14 +357,26 @@ span {
 	width:50%;
 }
 
-.aboutmeimage {
-	width: 30%;
+#portfolio {
+	padding: 2em 0 2em 0;
+}
+
+.portfolioexample {
+	width: 90%;
+	padding: 2%;
+	margin: .4em .4em;
+	font-size: 1em;
+	background-color: #FCFCFC
+}
+
+.portfolioimage {
+	width: 15%;
 }
 }
 
 
 
-@media only screen and (max-width: 890px){
+@media only screen and (max-width: 895px){
 h1 {
 	font-size: 3em;
 }
@@ -339,19 +390,10 @@ header {
 	font-size: 1em;
 }
 
-.desk {
-		display: none;
-}
-
 .intro_text {
-	margin: .5em;
-	font-size: .8em;
-	padding-top: 9em;
-}
-
-.arrow {
-	height: 4.5%;
-	width: 4.5%
+	margin: 0 3em;
+	font-size: 1em;
+	padding-top: 4em;
 }
 
 #experience {
@@ -363,8 +405,6 @@ header {
 }
 
 #skills {
-	display: flex;
-	flex-flow: row wrap;
 	justify-content: center;
 	margin: auto;
 }
@@ -373,34 +413,91 @@ header {
 	padding: 1em;
 }
 
-#portfolio {
-	padding: 2em 0 7em 0;
+.aboutmeimage {
+	padding: 0 .1em;
+	width: 28%;
+}
 }
 
-.portfolioexample {
+@media only screen and (max-width: 745px) {
+.skills {
+	display: none;
+}
+
+.skillslist {
+	float: left;
+	justify-content: center;
+}
+
+.skillsimage{
+	width:25%;
+	margin: 2em;
+	float: left;
+
+}
+
+.mobileskills {
+	display: inline-block;
 	width: 90%;
 	padding: 2%;
-	margin: .4em .4em;
+	margin:  auto;
 	font-size: 1em;
-	background-color: #FCFCFC
+	justify-content: center;
 }
 
-.portfolioimage {
-	width: 20%;
+.wrapper {
+	display: block;
+}
+.right {
+	float: none;
+	width: 100%;
+	text-align: center;
+	border-left: 0px gray solid;
+}
+
+.left {
+	float: none;
+	width: 100%;
+	padding-right: 0em;
 }
 
 .aboutmeimage {
 	padding: 0 .2em;
-	width: 30%;
+	width: 25%;
+}
+footer a {
+	display: block;
+	line-height: 1em;
 }
 }
 
 
-@media only screen and (max-width: 652px) {
+@media only screen and (max-width: 685px) {
+
+nav {
+  	display: none;
+  }
 
 nav a {
-	float: none;
-	width: auto;
+  	display: block;
+}
+
+label {
+	display: block;
+}  
+
+#toggle:checked + nav {
+	display:block;
+}
+
+.desk {
+	display: none;
+}
+
+.intro_text {
+	margin: 0 1.5em;
+	font-size: .8em;
+	padding-top: 9em;
 }
 
 #intro, #experience, #skills, #portfolio, #aboutme, #contact, #resume {
@@ -408,12 +505,16 @@ nav a {
 	font-size: 1em;
 }
 
-.aboutmeimage, .skillsimage {
-	width: 45%;
+
+.skillsimage{
+	width:25%;
+	margin: 1em;
+	float: left;
+
 }
 
 #portfolio {
-	padding: 2em 0 7em 0;
+	padding: 2em 0 2em 0;
 }
 
 .portfolioexample {
@@ -429,32 +530,32 @@ nav a {
 }
 
 #about {
-	margin: 2em 0;
+	margin: 1em 0;
 	background-color: #FCFCFC;
 }
 
-
 .right {
-	float: right;
-	width: 75%;
-	padding: 2%;
-	margin: .4em;
-	border-left: 1px gray solid;
-
+	float: none;
+	width: 100%;
+	border-left: 0px gray solid;
 }
 
 .left {
-	float: left;
-	width: 20%;
-	text-align: center;
-	margin:auto;
-	text-transform: uppercase;
-	
+	float: none;
+	width: 100%;
 }
 
 .aboutmeimage {
-	padding: 0 .2em;
-	width: 30%;
+	padding: 0em;
+	width: 25%;
+}
+
+.contactimage {
+	width: 70%;
+}
+
+
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -467,15 +568,19 @@ nav a {
 	margin: 3em 1em 0em 1em;
 }
 
-.arrow{
-	display:block;
-	margin: auto;
-	padding-top: 2em;
-	width: 3em;
+.headshot {
+	width:40%;
+}
+.aboutmeimage {
+	padding: 0em;
+	width: 25%;
 }
 
-h3.sectionheader {
-	margin: 0 1em;
+.contact {
+	display:block;
+}
+.contactimage {
+	width: 50%;
 }
 
 }

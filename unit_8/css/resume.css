@@ -1,0 +1,87 @@
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+
+
+}
+
+body {
+	color: #474143;
+	font-size: 16px;
+	font-family: Helvetica, arial, sans-serif;
+	background-color: #E2E2E2;
+}
+
+h1 {
+	font-size: 1.75em;
+	line-height: 2em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 2em;
+	font-weight: bold;
+}
+
+h3{
+	font-size:1.1em;
+	line-height: 1.75em;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 1em;
+	margin-left: .5em;
+	font-weight: normal;
+	line-height: 1.2em
+}
+
+p {
+	margin-left: .5em;
+	line-height: 1.5em;
+}
+
+li {
+	margin-left: .5em;
+	line-height: 1.1em;
+}
+
+#wrapper{
+	margin: 4em;
+}
+
+#leftside {
+	float: left;
+	width: 33%;
+	padding: 20px;
+	background-color: white;
+	display: inline-block;
+	margin:auto;
+}
+
+#rightside{
+	float: right;
+	width: 67%;
+	padding:1%;
+	background-color: white;
+	display: inline-block;
+	margin:auto;
+}
+
+.resumeinfo{
+	margin: 2em auto;
+}
+
+.resumeeducation{
+	margin: 0 auto 2em 0
+}
+
+.resumeskills {
+	margin: 2em auto
+}
+
+.experience {
+	margin: 2em auto;
+}

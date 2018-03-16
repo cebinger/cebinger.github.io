@@ -10,6 +10,8 @@
 <!--***** Introduction Page ******* -->
 
       <section id="intro"> 
+        <label for="toggle">MENU</label>
+        <input type="checkbox" id="toggle">
        <nav>
                 <a href="#">EXPERIENCE</a>
                 <a href="#">SKILLS</a>
@@ -17,7 +19,7 @@
                 <a href="#">ABOUT ME</a>
                 <a href="#">CONTACT</a>
         </nav> 
-          <img class="desk" src="images/desk.png">
+          <img class="desk" src="images/desk2.png">
         <div class="intro_text">  
             
             <h1 class="hello">Hello.</h1>
@@ -29,7 +31,8 @@
 <!--********* Experience Page ******* -->      
         <section id="experience"> 
          <header>
-            <h2 class="sectionheader">// Experience</h2> 
+           <hr>
+            <h2 class="sectionheader">Experience</h2> 
             <h3 class="sectionheader"> From the front lines of operations to leading strategy, I've been able to get it done at both enterprise organizations and start-ups.  Check out the companies I've partnered with: </h3>
           </header>
 
@@ -62,13 +65,15 @@
 <!-- ********** Skills Page ******-->
       <section id="skills"> 
       <header>   
-            <h2 class="sectionheader">// Skills</h2>
+        <hr>
+            <h2 class="sectionheader">Skills</h2>
             <h3 class=sectionheader>My skill-set is a mix of tools and intuition, acquired by on the job-experience and off-the-clock self-teaching.</h3>
         </header>
 
         <div class="skills">
             <img class="skillsimage" src="images/skills1.png">
-            <p> <span>Areas of Expertise</span></p>
+            <div clas="skillslist">
+              <h4>Areas of Expertise</h4>
               <p>Email Marketing</p>
               <p>Site Merchandising</p>
               <p>eCommerce</p>
@@ -78,11 +83,12 @@
               <p>Inventory Analysis</p>
               <p>A/B Testing and Optimization</p>
               <p>Vendor Negotiation</p>
+            </div>
         </div>  
 
         <div class="skills">   
            <img class="skillsimage" src="images/machine.png">
-            <p><span>Tools Mastered</span></p> 
+            <h4>Tools Mastered</h4> 
               <p>Google Analytics & AdWords</p>
               <p>Omniture</p>
               <p>JIRA</p>
@@ -95,12 +101,56 @@
             
         <div class="skills"> 
          <img class="skillsimage" src="images/intangibles.png">    
-            <p><span>Intangibles</span></p>  
+            <h4>Intangibles</h4>  
               <p>Master loophole finder</p>
               <p>Cross-functional ninja</p>
               <p>Hands-on manager</p>
               <p>Constant learner</p>
               <p>Just a nice person in general</p> 
+        </div>
+
+
+        <div class="mobileskills">
+            <img class="skillsimage" src="images/skills1.png">
+            <div class="skillslist">
+              <h4>Areas of Expertise</h4>
+              <p>Email Marketing</p>
+              <p>Site Merchandising</p>
+              <p>eCommerce</p>
+              <p>Account & Project Management</p>
+              <p>Mobile Marketing</p>
+              <p>Sales Analysis</p>
+              <p>Inventory Analysis</p>
+              <p>A/B Testing and Optimization</p>
+              <p>Vendor Negotiation</p>
+              </div>
+        </div>  
+
+        <div class="mobileskills">   
+           <img class="skillsimage" src="images/machine.png">
+            <div class="skillslist">
+            <h4>Tools Mastered</h4> 
+              <p>Google Analytics & AdWords</p>
+              <p>Omniture</p>
+              <p>JIRA</p>
+              <p>MailChimp</p>
+              <p>Wix</p>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>Lot's of homegrown site tools</p>
+            </div>
+        </div>
+            
+        <div class="mobileskills"> 
+         <img class="skillsimage" src="images/intangibles.png"> 
+         <div class="skillslist"> 
+            <h4>Intangibles</h4>  
+              <p>Master loophole finder</p>
+              <p>Cross-functional ninja</p>
+              <p>Hands-on manager</p>
+              <p>Constant learner</p>
+              <p>Just a nice person in general</p> 
+            </div>
         </div>
       </section> 
 
@@ -108,45 +158,52 @@
       <section id="portfolio" class="clearfix">
 
       <header>
-            <h2 class="sectionheader">// Portfolio</h2>
+        <hr>
+            <h2 class="sectionheader">Portfolio</h2>
             <h3> As an eCommerce marketer, I help companies create and execute their marketing strategies.  I've done significant work in email, site and mobile marketing, with additional time spent on Optimization and Paid Marketing.</h3>
       </header> 
 
             <div class="portfolioexample">
              <img class="portfolioimage" src="images/migration.png" alt="website migration">
-              <p><span>Site Migration & Relaunch</span> <br> Post-acquisition, all marketing operations were migrated to Groupon platform. As employee #2 on the new LivingSocial team, I worked to rebuild marketing, email, site and mobile programs on the new platform. 
-              <a href="#" class="button">Read More</a></p>
+              <h4>Site Migration & Relaunch</h4>
+              <p>Post-acquisition, all marketing operations were migrated to Groupon platform. As employee #2 on the new LivingSocial team, I worked to rebuild marketing, email, site and mobile programs on the new platform.</p>
+              <a href="#" class="button">Read More</a>
               
             </div>  
 
              <div class="portfolioexample"> 
                   <img class="portfolioimage" src="images/behavioralemail.png" alt="Behavioral Email">
-                  <p><span>Behavioral Email</span><br>Launched a scalable marketing program that addressed Groupon customer’s #1 issue.
-                  <a href="#" class="button">Read More</a></p>
+                  <h4>Behavioral Email</h4>
+                 <p>Launched a scalable marketing program that addressed Groupon customer’s #1 issue.</p>
+                  <a href="#" class="button">Read More</a>
               </div>    
 
               <div class="portfolioexample">
                   <img class="portfolioimage" src="images/promotion.png" alt="promocode">
-                  <p><span>Cross Channel Promotions</span><br>As a deal-based company, Groupon used limited-time promotions as a major marketing lever.  I was responsible for concept to execution of various promotional activities across email, site and mobile spaces.
-                   <a href="#" class="button">Read More</a></p>
+                  <h4>Cross Channel Promotions</h4>
+                  <p>As a deal-based company, Groupon used limited-time promotions as a major marketing lever.  I was responsible for concept to execution of various promotional activities across email, site and mobile spaces.</p>
+                   <a href="#" class="button">Read More</a>
               </div>   
 
               <div class="portfolioexample">
                  <img class="portfolioimage" src="images/abtest.png">
-                 <p><span>Testing & Optimization</span><br>As the Groupon Merchandising and Marketing teams continued to grow and verticalize, there was an increasing need to centralize and standardize testing and learning processes.  I developed and   implemented a cross-departmental testing process that saved the company both time and money.
-                  <a href="#" class="button">Read More</a></p>
+                 <h4>Testing & Optimization</h4>
+                 <p>As the Groupon Merchandising and Marketing teams continued to grow and verticalize, there was an increasing need to centralize and standardize testing and learning processes.  I developed and   implemented a cross-departmental testing process that saved the company both time and money.</p>
+                  <a href="#" class="button">Read More</a>
               </div>
 
               <div class="portfolioexample">
                   <img class="portfolioimage" src="images/mobilemarketing.png" alt="Mobile Messaging">
-                  <p><span>Mobile Messaging</span><br>Responsible for strategy, content and execution of push notifications, in-app notifications and mobile-web messaging.
-                   <a href="#" class="button">Read More</a></p>
+                  <h4>Mobile Messaging</h4
+                    <p>Responsible for strategy, content and execution of push notifications, in-app notifications and mobile-web messaging. </p>
+                   <a href="#" class="button">Read More</a>
               </div>
 
               <div class="portfolioexample"> 
                   <img class="portfolioimage" src="images/retention.png" alt="Retention Marketing">
-                  <p><span>Acquisition & Retention Marketing</span> <br>Managed campaigns focused on acquiring and activating LivingSocial customers through targeted and partner-based deals.
-                   <a href="#" class="button">Read More</a></p>
+                  <h4>Acquisition & Retention Marketing</h4>
+                  <p>Managed campaigns focused on acquiring and activating LivingSocial customers through targeted and partner-based deals. </p>
+                   <a href="#" class="button">Read More</a>
                </div>      
                       
         </section>
@@ -154,65 +211,92 @@
 <!-- ********* About Me Page ******** -->        
      <section id="about" class="clearfix">
           <header>
-                  <h2 class="sectionheader">// About me</h2>
+            <hr>
+                  <h2 class="sectionheader">About me</h2>
                   <br>
           </header>
              
-              <div id="aboutme" class="clearfix">
-                  <img class="left" src="images/placeholder.png">
-
-                  <p class="right">I’ve spent the past 8 years working with both enterprise eCommerce companies and start-ups in a variety of roles, and I love the digital aspect of the business.  I have learned to adapt quickly, be resourceful, develop strong partnerships across various teams and deeply appreciate the customer’s opinion.
-                  I get the most jazzed about bringing projects to life and rolling up my sleeves to make it happen.</p>
-                </div>
-          
-
-          <div id="aboutme" class="clearfix">
-            <h4 class="left">Where I've Learned</h4>
-              <p class="right">
-            
+          <div class="wrapper">
+            <div class="left">
+                  <img class="headshot" src="images/placeholder.png">
+            </div>    
+            <div class="right">
+              <p>I’ve spent the past 8 years working with both enterprise eCommerce companies and start-ups in a variety of roles, and I love the digital aspect of the business.  I have learned to adapt quickly, be resourceful, develop strong partnerships across various teams and deeply appreciate the customer’s opinion.
+               I get the most jazzed about bringing projects to life and rolling up my sleeves to make it happen.</p>
+            </div>
+          </div>
+      
+      
+         <div class="wrapper">
+          <div class="left">
+            <h4>Education</h4>
+          </div>
+          <div class="right">
               <img src=images/uwmadison.png class="aboutmeimage" alt="UW-Madison">
               <img src=images/upf.png class="aboutmeimage" alt="Universitat Pompeu Fabra Barcelona">
               <img src=images/generalassembly.png class="aboutmeimage" alt="General Assembly">
-            </p>
-             </div> 
+            </div>
+          </div> 
 
-           <div id="aboutme" class="clearfix">
-            <h4 class="left">Certifications</h4>
-              <p class="right">
+          
+          <div class="wrapper">
+           <div class="left">
+            <h4> Certifications</h4>
+          </div>
+              <div class="right">
                <img src=images/hubspot.png class="aboutmeimage" alt="HubSpot">
               <img src=images/placeholder.png class="aboutmeimage" alt="Google Analytics">
               <img src=images/placeholder.png class="aboutmeimage" alt="Google AdWords">
-            </p>
-           </div>   
+            </div>
+          </div>
+         
           
-          <div id="aboutme" class="clearfix">
-          <h4 class="left">Races</h4>
-              <p class="right">
+    <div class="wrapper">
+         <div class="left">
+          <h4>Races</h4>
+        </div>
+              <div class="right">
                <img src=images/bostonmarathon.png class="aboutmeimage" alt="Boston Marathon">
                <img src=images/chicagomarathon.png class="aboutmeimage" alt="Chicago Marathon">
                <img src=images/lakefrontmarathon.png class="aboutmeimage" alt="Lakefront Marathon"> 
-             </p>
-          </div>
+             </div>
+      </div>
 
-          <div id="aboutme" class="clearfix">  
-            <h4 class="left">What I'm a fan of</h4>
-              <p class="right">
+        <div class="wrapper">
+          <div class="left">
+            <h4>What I'm a fan of</h4>
+          </div>
+            <div class="right">
                <img src=images/l2.png class="aboutmeimage" alt="L2">
                <img src=images/theskimm.png class="aboutmeimage" alt="The Skimm">
                <img src=images/sethgodin.png class="aboutmeimage" alt="Seth Godin"> 
-        </div>
+            </div>
+         </div>
       </section> 
 
+<!-- ********* Contact Me Page ******** --> 
 <section id="contactme" class="clearfix">
           <header>
-              <h2 class="sectionheader">// Contact Me</h2>
+            <hr>
+              <h2 class="sectionheader">Contact Me</h2>
           </header>
+
           <div class="contact">
               <a href="#">Email</a>
+              <img class="contactimages" src="images/email.png" href="#">
+          </div>   
+          <div class="contact">
               <a href="#">LinkedIn</a>
+              <img class="contactimages" src="images/linkedin.png">
+            </div>
+            <div class="contact">
               <a href="#">Resume</a>
+              <img class="contactimages" src="images/resume.png">
         </div>
-  </section>        
+  </section>  
+
+
+
 <!-- ********* Resume Page ******* 
       <header>
             <h2>// Resume</h2>
@@ -278,11 +362,11 @@
     </body>
 
     <footer>
-      <a href="#">Experience</a> //
-      <a href="#">Portfolio</a> //
-      <a href="#">About Me</a> //
-      <a href="#">Contact</a> 
-      <p>Back to Top</p>
+      <a href="#">Experience //</a> 
+      <a href="#">Portfolio //</a>
+      <a href="#">About Me //</a>
+      <a href="#">Contact //</a> 
+      <a>Back to Top</a>
     </footer>
 
 </html>
