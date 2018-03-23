@@ -1,0 +1,275 @@
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	background-color: #FCFCFC;
+}
+
+header {
+	background-image: url(../images/bluebrick.png);
+	padding-bottom: 2em;
+}
+
+nav {
+	padding: 1em;
+	text-align: center;
+
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	padding: 10px 20px;
+}
+
+nav a:hover {
+	background: gray;
+}
+
+footer {
+	background: gray;
+	text-align: center;
+	padding: .25em;
+}
+footer a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	padding: 10px 15px;
+}
+
+footer a:hover {
+	background: white;
+	color: gray;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	text-align: center;
+}
+
+h5 {
+	font-size: 1em;
+	line-height: 1.25em;
+}
+
+p {
+	font-size: 16px;
+}
+
+span {
+	font-size: 2.5em;
+	color:white;
+}
+
+hr {
+	display: block;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+li {
+	text-decoration: none;
+	font-size: .95em;
+	line-height: 1.35em;
+	list-style-type: none;
+}
+
+#desk_image {
+	width: 80%;
+	margin: 0 2em 0 4em;
+	justify-content: center;
+}
+
+#header_text{
+	margin: -3.5em 3em 0em 4em;
+}
+
+#wrapper {
+	background-color: gray;
+	margin: 0 3em;
+}
+
+.section_title {
+	text-align: center;
+	text-transform: uppercase;
+	transform: translateY(-50%);
+	background-color: #474143;
+    color: #FCFCFC;
+    width: max-content;
+    margin: auto;
+    padding: 0em 1em;
+    transform: translateY(-50%)
+
+}
+	
+.blip {
+	margin: 1em 4em;
+}
+#experience {
+	padding: 3em 0;
+	background-color: #FCFCFC;
+	padding-bottom: 3em;
+}
+
+#companies {
+	margin: 3em;
+	text-align: center;
+}
+
+.companyimage {
+	display: inline-flex;
+	border: 1px gray solid;
+	margin: 3px;
+}
+
+#skills {
+	background-color: #FCFCFC;
+	padding: 1em 0;
+}
+
+ #skills_grid {
+ 	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: auto;
+	padding: 1em 0;
+ }
+
+.skills_list {
+	margin: 1em;
+}
+
+#portfolio {
+	padding: 2em 0;
+	background-color: #FCFCFC;
+}
+
+#portfolio_grid {
+	padding-top: 2em;
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0 3em;
+	justify-content: center;
+}
+
+.portfolio_example {
+	border: 1px black solid;
+	margin: 5px;
+	padding: .5em;
+	width: 48%;
+	background-color:white;
+}
+
+.portfolio_example p {
+	overflow: hidden;
+	height: 125px;
+}
+
+.portfolioimage {
+	float: left;
+	padding-right: 10px;
+	
+}
+
+.button {
+	text-align: right;
+	padding-top: 10px;
+}
+
+a.button{
+	background-color: #A0A0A0;
+	text-decoration: none;
+	font-size: .9em;
+	color: white;
+	text-transform: bold;
+	padding: .2em .4em;
+	border-radius: 4px;
+}
+
+#about_me {
+	padding:3em 0;
+	background-color: #FCFCFC;
+}
+
+#about_me_grid {
+	
+}
+.about_me_slice {
+ 	display: flex;
+	flex-flow: wrap;
+	margin: .5em;
+}
+
+.left {
+	float: left;
+	width: 20%;
+	padding: 2%;
+	text-transform: uppercase;
+	text-align: center;
+	margin: auto;
+	text-align: center;
+	
+}
+
+.right {
+	float: right;
+	width: 70%;
+	padding: 2%;
+	border-left: 1px gray solid;
+	margin: auto;
+	text-align: center;
+
+}
+.aboutmeimage {
+	margin: auto;
+}
+
+#contact_me{
+	padding: 2em 0 3em 0;
+	background-color: #FCFCFC;
+
+}
+
+#contact_me_grid {
+	text-align: center;
+}
+
+.contact_slice {
+	display: inline-block;
+	margin: 0 1em;
+
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear:both;
+  height: 0;
+}
+
+
