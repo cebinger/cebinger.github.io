@@ -4,11 +4,12 @@
 		<title>Christine Ebinger</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 	</head>
 		
 
 	<body>
-		<header>
+		<header class="gradient1">
 		<nav class="clearfix">
 			<a href="#">Experience</a>
 			<a href="#">Skills</a>
@@ -17,7 +18,7 @@
 			<a href="#">Resume</a>
 		</nav>
 
-		<img src="images/desk2.png" id="desk_image">
+		
 		<div id="header_text">
 			<h1><span>Hello.</span></h1>
 			<h1>I'm Christine Ebinger</h1>
@@ -26,64 +27,60 @@
 		</header>	
 
 <main id="wrapper">
-<section id="experience">
+<section id="experience" class="clearfix">
 
-<hr>
-	<h3 class="section_title">Experience</h3>
+	<div class="left_side" class="clearfix">
+	<h3 class="title">Experience</h3>
+	<h4 class="blip"> Where I've made an impact.</h4>
 
-	<h4 class="blip">From the front lines of operations to leading strategy, I've been able to get it done at both enterprise organizations and start-ups. Check out the companies I've partnered with:</h4>
-		<div id="companies">
+</div>
+		<div id="companies" class="right_side">
+			<h4 class="blip1">From the front lines of operations to leading strategy, I've been able to get it done at both enterprise organizations and start-ups. Check out the companies I've partnered with:</h4>
+			<br>
 
 		<div class="companyimage">	
-			<img src="images/brainchild-logo.png" alt="Brainchild Studios: Web Development & Digital Marketing" title="Brainchild Studios: Web Development & Digital Marketing">
+			<img src="images/brainchild-logo.png" alt="Brainchild Studios: Web Development & Digital Marketing" title="Brainchild Studios: Web Development & Digital Marketing" class="logo">
 		</div>
 
 		<div class="companyimage">
-			<img src="images/livingsocial-logo.png" alt="LivingSocial" title="LivingSocial">
+			<img src="images/livingsocial-logo.png" alt="LivingSocial" title="LivingSocial" class="logo">
 		</div>
 
 		<div class="companyimage">
-			<img src="images/rookieup.png" alt="RookieUp: UX/UI Portfolio Starter Kits" title="RookieUp">
+			<img src="images/rookieup.png" alt="RookieUp: UX/UI Portfolio Starter Kits" title="RookieUp" class="logo">
 		</div>
 
 		<div class="companyimage">
-			<img src="images/groupon-logo.png" alt="Groupon" title="Groupon">
+			<img src="images/groupon-logo.png" alt="Groupon" title="Groupon" class="logo">
 		</div>
 
 		<div class="companyimage">
-			<img src="images/kohls-logo.png" alt="Kohls.com" title="Kohls.com">
+			<img src="images/kohls-logo.png" alt="Kohls.com" title="Kohls.com" class="logo">
 		</div>
 
 		<div class="companyimage">
-			<img src="images/coyote-logo.png" alt="Coyote Logistics" title="Coyote Logistics">
+			<img src="images/coyote-logo.png" alt="Coyote Logistics" title="Coyote Logistics" class="logo">
 		</div>
 	</div>
 	</section>
 
 	
 	<section id="skills" class="clearfix">
-<hr>
-		<h3 class="section_title">Skills</h3>
-		<h4 class="blip">My skill-set is a mix of tools and intuition, acquired by on the job-experience and off-the-clock self-teaching.</h4>
 
+	<div class="left_side">
+		<h3 class="title">Skills</h3>
+		<h4 class="blip">What I bring to the table.</h4>
+	</div>
+
+		<div class="right_side">
+			<h4 class="blip1">My skill-set is a mix of tools and intuition, acquired by on the job-experience and off-the-clock self-teaching.</h4>
+			<br>
 		<div id="skills_grid">
-		<div class="skills_list" class="clearfix">
-		<h3>Areas of Expertise</h3>
-			<ul>
-				<li>Email Marketing</li>
-				<li>Site Merchandising</li>
-				<li>eCommerce</li>
-				<li>Account & Project Management</li>
-				<li>Mobile Marketing</li>
-				<li>Sales Analysis</li>
-				<li>Inventory Analysis</li>
-				<li>A/B Testing and Optimization</li>
-				<li>Vendor Negotiation</li>
-			</ul>
-		</div>
-		<div class="skills_list" class="clearfix">
-		<h3>Tools Mastered</h3>
-			<ul>
+	
+		
+		<div class="skills_list1" class="clearfix">
+		<h3 class="title1">Tools Mastered</h3>
+			<ul class="no_decoration">
 				<li>Google Analytics & AdWords</li>
 				<li>Omniture</li>
 				<li>JIRA</li>
@@ -96,8 +93,22 @@
 
 		</div>
 
-		<div class="skills_list" class="clearfix">
-		<h3>Intangibles</h3>
+<div class="skills_list2">
+		<h3 class="title1">Areas of Expertise</h3>
+			<ul class="no_decoration">
+				<li>Email Marketing</li>
+				<li>Site Merchandising</li>
+				<li>Account & Project Management</li>
+				<li>Mobile Marketing</li>
+				<li>Sales Analysis</li>
+				<li>Inventory Analysis</li>
+				<li>A/B Testing and Optimization</li>
+				<li>Vendor Negotiation</li>
+			</ul>
+		</div>
+
+	<div class="skills_list1" class="clearfix">
+		<h3 class="title1">Intangibles</h3>
 			<ul>
 				<li>Master loophole finder</li>
 				<li>Cross-functional ninja</li>
@@ -110,16 +121,21 @@
 		</div>
 	</section>
 
-	<section id="portfolio" class="clearfix">
-		<hr>
-		<h3 class="section_title">Portfolio</h3>
-		<h4 class="blip">As an eCommerce marketer, I help companies create and execute their marketing strategies. I've done significant work in email, site and mobile marketing, with additional time spent on Optimization and Paid Marketing.</h4>
+	<section id="portfolio"  class="clearfix">
 
-		<div id="portfolio_grid" class="clearfix">
+		<div class="left_side">
+		<h3 class="title">Portfolio</h3>
+		<h4 class="blip">My work.</h4>
+	</div>
+
+		
+		<div class="right_side">
+			<h4 class="blip1">I have a track record of helping companies create and execute their marketing strategies. I've done significant work in email, site and mobile marketing, with additional time spent on Optimization.</h4>
+			<div id="portfolio_grid" class="clearfix" class>
+			
 		<div class="portfolio_example">
 			<img src="images/migration.png" class="portfolioimage">
 			<h5>Site Migration & Relaunch</h5>
-				<p>Post-acquisition, all marketing operations were migrated to Groupon platform. As employee #2 on the new LivingSocial team, I worked to rebuild marketing, email, site and mobile programs on the new platform</p>
 				<div class=button>
 				<a href="#" class="button">Read More</a>
 			</div>
@@ -128,7 +144,6 @@
 		<div class="portfolio_example">
 			<img src="images/behavioralemail.png" class="portfolioimage">
 			<h5>Behavioral Email</h5>
-				<p>Launched a scalable marketing program that addressed Groupon customer’s #1 issue.</p>
 				<div class=button>
 				<a href="#" class="button">Read More</a>
 			</div>
@@ -136,8 +151,7 @@
 
 		<div class="portfolio_example">
 			<img src="images/promotion.png" class="portfolioimage">
-			<h5>Cross Channel Promotions</h5>
-				<p>As a deal-based company, Groupon used limited-time promotions as a major marketing lever. I was responsible for concept to execution of various promotional activities across email, site and mobile spaces.</p>
+			<h5>Promotional Marketing</h5>
 				<div class=button>
 				<a href="#" class="button">Read More</a>
 			</div>
@@ -146,7 +160,6 @@
 		<div class="portfolio_example">
 			<img src="images/abtest.png" class="portfolioimage">
 			<h5>Testing & Optimization</h5>
-				<p>I developed and implemented a cross-departmental testing process that saved the company both time and money.</p>
 				<div class=button>
 				<a href="#" class="button">Read More</a>
 			</div>
@@ -155,91 +168,92 @@
 		<div class="portfolio_example">
 			<img src="images/mobilemarketing.png" class="portfolioimage">
 			<h5>Mobile Messaging</h5>
-				<p>Responsible for strategy, content and execution of push notifiscations, in-app notifications and mobile-web messaging.</p>
 				<div class=button class="clearfix">
 				<a href="#" class="button">Read More</a>
 			</div>
 		</div>
 
 		<div class="portfolio_example">
-			<img src="images/retention.png" class="portfolioimage">
-			<h5>Acquisition & Retention Marketing</h5>
-				<p>Managed campaigns focused on acquiring and activating LivingSocial customers through targeted and partner-based deals.</p>
+		<img src="images/retention.png" class="portfolioimage">
+			<h5>Acquisition & Retention</h5>
 				<div class=button>
 				<a href="#" class="button">Read More</a>
 			</div>
 		</div>
 		</div>
+		</div>
 	</section>		
 
 	<section id="about_me" class="clearfix">
-		<hr>
-		<h3 class="section_title">About Me</h3>
+		<div class="left_side">
+		<h3 class="title">About Me</h3>
+		<h4 class="blip">A little more detail.</h4>
 
-	<div class="about_me_slice">
-
-		<img class="left" src="images/headshot-circle.png">
-		<p class="right">I’ve spent the past 8 years working with both enterprise eCommerce companies and start-ups in a variety of roles, and I love the digital aspect of the business. I have learned to adapt quickly, be resourceful, develop strong partnerships across various teams and deeply appreciate the customer’s opinion. I get the most jazzed about bringing projects to life and rolling up my sleeves to make it happen.</p>
-	</div>
 	</div> 
+<div class="right_side" class="clearfix">
+	<div class="about_me_slice" class="clearfix">
+
+		<img class="headshot" src="images/headshot-circle.png">
+		
+		<p class="headshot">I’ve spent the past 8 years working with both enterprise eCommerce companies and start-ups in a variety of roles, and I love the digital aspect of the business. I have learned to adapt quickly, be resourceful, develop strong partnerships across various teams and deeply appreciate the customer’s opinion. I get the most jazzed about bringing projects to life and rolling up my sleeves to make it happen.</p>
+	</div>
 
 	<div class="about_me_slice">
-		<h3 class="left">Education</h3>
+		<h3 class="abouttitle">Education</h3>
 		<div class="right">
-			<img src="images/uwmadison.png">
-			<img src="images/upf.png">
-			<img src="images/generalassembly.png">
+			<img src="images/uwmadison1.png" class="aboutmeimage">
+			<img src="images/upf1.png" class="aboutmeimage">
+			<img src="images/generalassembly1.png" class="aboutmeimage">
 		</div>
 
 	</div>
+	
 
-	<div class="about_me_slice" class="clearfix">
-			<h3 class="left">Certifications</h3>
+	<!--<div class="about_me_slice" class="clearfix">
+			<h3 class="abouttitle">Certifications</h3>
 		<div class="right">
 			<img src=images/hubspot.png class="aboutmeimage" alt="HubSpot">
-             <img src=images/placeholder.png class="aboutmeimage" alt="Google Analytics">
-             <img src=images/placeholder.png class="aboutmeimage" alt="Google AdWords">
-            </div>
+             <img src=images/hubspot.png class="aboutmeimage" alt="Google Analytics">
+             <img src=images/hubspot.png class="aboutmeimage" alt="Google AdWords">
+            </div>-->
 		</div>
-	</div>
 
-		<div class="about_me_slice" class="clearfix">
-		<h3 class="left">Races</h3>
+		<!--<div class="about_me_slice" class="clearfix">
+		<h3 class="abouttitle">Races</h3>
 		<div class="right">
 			  <img src=images/bostonmarathon.png class="aboutmeimage" alt="Boston Marathon">
                <img src=images/chicagomarathon.png class="aboutmeimage" alt="Chicago Marathon">
                <img src=images/lakefrontmarathon.png class="aboutmeimage" alt="Lakefront Marathon"> 
-		</div>
-	</div>
+		</div>-->
 	</div>
 
-<div class="about_me_slice" class="clearfix">
-		<h3 class="left">What I'm a Fan Of</h3>
+<!--<div class="about_me_slice" class="clearfix">
+		<h3 class="abouttitle">What I'm a Fan Of</h3>
 		<div class="right">
 			    <img src=images/l2.png class="aboutmeimage" alt="L2">
                <img src=images/theskimm.png class="aboutmeimage" alt="The Skimm">
                <img src=images/sethgodin.png class="aboutmeimage" alt="Seth Godin">
-		</div>
+		</div> -->
 
 
 	</section>
 	
-	<section id="contact_me">	
-	<hr>	
-	<h3 class="section_title">Contact Me</h3>
+	<section id="contact_me" class="clearfix">	
+<div class="left_side" class="clearfix">
+	<h3 class="title">Contact Me</h3>
+	<h4 class=blip>Let's chat.</h4>
+</div>
+
+	<div class="right_side">
 	<div id="contact_me_grid" class="clearfix">
-	<div class="contact_slice">	
-		<h3>Email</h3>
-		<img src="images/email.png" alt="email" title="email" href=>
+		<h5 class="contact_button">Email</h5>
+	
+		<h5 class="contact_button">LinkedIn</h5>
+
+		<h5 class="contact_button">Resume</h5>
 	</div>
-	<div class="contact_slice">
-		<h3>LinkedIn</h3>
-		<img src="images/linkedin.png" alt="linkedin" title="linkedin" href="#">
-	</div>
-	<div class="contact_slice">
-		<h3>Resume</h3>
-		<img src="images/resume.png" alt="resume" title="resume" href="#">
-	</div>
+</div>
+	
 	</section>
 </main>
 	<footer>
