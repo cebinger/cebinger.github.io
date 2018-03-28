@@ -37,7 +37,7 @@ h3{
 }
 
 h4 {
-	font-size: 1em;
+	font-size: .9em;
 	margin-left: .5em;
 	font-weight: normal;
 	line-height: 1.3em
@@ -50,6 +50,7 @@ h5 {
 p {
 	margin-left: .5em;
 	line-height: 1.5em;
+	font-size: .9em;
 }
 
 li {
@@ -68,8 +69,6 @@ hr {
 }
 
 
-
-
 #wrapper{
 	margin: 4em;
 	background-color: white;
@@ -83,7 +82,7 @@ hr {
 	background-color: white;
 	display: block;
 	margin:auto;
-	padding: 1.8em 1em 2em 2em;
+	padding: 1.8em .5em 2em 2em;
 
 }
 
@@ -92,15 +91,17 @@ hr {
 	width: 65%;
 	background-color: white;
 	display: block;
-	padding: 1.8em 2em 2em 1em;
+	padding: 1.8em 2.5em 2em .5em;
 }
 
 .name {
-	background: black;
+	background-color: #474143;
 	color: white;
-	padding-left: 2em;
-
+	padding-left: 1.5em;
+	letter-spacing: .05em;
+	font-size: 1.2em;
 }
+
 .resumeinfo{
 	margin-bottom: 1em;
 	line-height: 1.2em;
@@ -150,3 +151,24 @@ clearfix:after {
   clear:both;
   height: 0;
 }
+
+@media only screen and (max-width: 1000px) {
+ #wrapper {
+ 	margin: 1em;
+ }
+}
+@media only screen and (max-width: 900px) {
+
+h2 {
+	font-size: 1.4em;
+}
+
+.h3 {
+	font-size: 1.1em;
+}
+
+.right, .left {
+	font-size: .9em;
+}
+
+

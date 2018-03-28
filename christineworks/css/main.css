@@ -28,6 +28,21 @@ header {
 	font-family: 'Roboto', sans-serif;
 }
 
+label {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: white;
+  	padding: .5em;
+  	display: none;
+  	text-align: center;
+}
+
+label:hover{
+	color: #007e94;
+	background: #E2E2E2;
+}
+
 nav {
 	padding: 1em;
 	text-align: right;
@@ -61,7 +76,7 @@ footer a{
 }
 
 footer a:hover {
-	background: white;
+	background: #FCFCFC;
 	color: gray;
 }
 
@@ -134,6 +149,9 @@ ul {
 
 #wrapper {
 	
+}
+#toggle {
+	display:none;
 }
 
 .title {
@@ -213,7 +231,6 @@ ul {
 
  #skills_grid {
  	display: flex;
-	flex-flow: row wrap;
 	justify-content: center;
 	padding-top: 2em;
  }
@@ -251,7 +268,6 @@ ul {
 	padding-top: 2.5em;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: right;
 	margin: auto;
 }
 
@@ -291,7 +307,7 @@ a.button:hover {
 }
 
 #about_me {
-	margin: 4em;
+	padding: 4em;
 }
 
 
@@ -321,7 +337,6 @@ a.button:hover {
 .aboutmeimage {
 	margin: auto .5em;
 	width: 25%;
-	filter: grayscale(90%);
 }
 
 .headshot {
@@ -335,15 +350,15 @@ a.button:hover {
 }
 
 #contact_me_grid {
-	margin-left: 6em;
+	
 	
 }
 
 .contact_button {
 	background-color: #474143;
 	float: left;
-	margin: 0 2em;
-	padding: .3em 1em;
+	margin: 0 1.5em;
+	padding: .8em 1em;
 	color: white;
 	text-align: center;
 	text-transform: uppercase;
@@ -428,5 +443,266 @@ ol {
 }
 
 
+@media only screen and (max-width: 1210px) {
+
+@media only screen and (max-width: 980px) {
+
+h2 {
+	font-size: 1.6em;
+}
+
+h5 {
+	font-size: 1em;
+	line-height: 1em;
+}
+
+#header_text {
+	margin: 8em 4em 1em 1em;
+}
+
+#skills_grid {
+	margin:0 -2em;
+}
+
+.button {
+	text-align: right;
+	padding-top: .5em;
+}
+
+a.button{
+	background-color: #A0A0A0;
+	text-decoration: none;
+	font-size: .8em;
+	color: white;
+	text-transform: bold;
+	padding: .2em .4em;
+	border-radius: 4px;
+}
+
+#about_me {
+	padding: 0em 0em 4em 4em;
+}
+
+
+#contact_me_grid {
+	margin-left: 2em;
+	
+}
+.contact_button {
+
+	margin: 0 1em;
+	}
+}
+
+@media only screen and (max-width: 890px) {
+#header_text {
+	margin: 4em 4em 1em 1em;
+}
+
+span {
+	font-size: 2.25em;
+}
+.left_side {
+	float: none;
+	width: 100%;
+	text-align: left;
+	padding-top: 1em;
+	}
+
+.right_side {
+	float: none;
+	width: 100%;
+	padding-left: 0em;
+	padding-top: 2em;
+}
+
+#companies {
+	padding-top: 2em;
+}
+
+.skills_list1, .skills_list2 {
+	padding: .5em;
+}
+
+
+.title, .blip {
+	text-align: left;
+}
+
+.blip1 {
+	margin: auto;
+}
+
+
+.about_me_slice {
+ 	display: flex;
+	flex-flow: wrap;
+	margin: 1em;
+	text-align: left;
+}
+
+.aboutmeimage {
+	width: 25%;
+}
+
+.headshot {
+	padding-bottom: 1em;
+}
+
+
+#experience, #skills, #portfolio, #contact_me, #about_me {
+	text-align: center;
+}
+
+#contact_me_grid {
+	text-align: center;
+	display: inline-block;
+	
+}
+
+.contact_button {
+
+	margin: 0 1em;
+
+}
+
+@media only screen and (max-width: 740px) {
+
+nav {
+	padding: 1em;
+	text-align: left;
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	padding: 10px 10px;
+	font-size: 1em;
+}
+span {
+	font-size: 1.7em;
+}
+
+h1 {
+	font-size: 2.7em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+
+#experience {
+	padding: 2em;
+}
+
+
+#skills_grid {
+ 	
+	padding-top: 2em;
+	margin:auto;
+ }
+
+.skills_list1, .skills_list2 {
+	padding: 1em 2em;
+	text-align: left;
+	width: 75%;
+}
+
+
+#portfolio_grid {
+	margin: auto;
+}
+
+.portfolioimage {
+	display: none;
+}
+
+.portfolio_example {
+	text-align: center;
+	
+}
+footer {
+	background: #00A1BD;
+	text-align: center;
+	padding: .25em;
+}
+footer a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	padding: 10px 15px;
+	font-size: 1em;
+}
+
+@media only screen and (max-width: 685px) {
+
+h1 {
+	font-size: 1.9em;
+}
+
+h2 {
+	font-size: 1em;
+}
+nav {
+  	display: none;
+  }
+
+nav a {
+  	display: block;
+}
+
+label {
+	display: block;
+}  
+
+#toggle:checked + nav {
+	display:block;
+}
+
+footer {
+	display: block;
+
+}
+
+footer a {
+	display: block;
+}
+
+#experience, #skills, #about_me, #portfolio, #contact_me {
+	padding: 2em;
+}
+
+#skills_grid {
+	display: block;
+}
+
+.skills_list1, .skills_list2 {
+	margin: auto;
+}
+#about_me {
+	margin: 0;
+}
+}
+
+@media only screen and (max-width: 520px) {
+
+
+.contact_button {
+	margin: 0 .5em;
+}
+
+.portfolio_example {
+	width: 80%;
+	
+}
+}
+@media only screen and (max-width: 480px) {
+
+
+}
 
 
